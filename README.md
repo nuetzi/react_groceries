@@ -19,7 +19,6 @@ Learning Objectives
 
 ## Deliverables
 Build a grocery app that allows users to make a grocery list
-Technical Requirements
 
 ## Technical Requirements
 1. Read over these specs and draw a mockup of your app (don't worry about bonus features at this point)
