@@ -14,7 +14,7 @@ Learning Objectives
 
 ## Getting Started
 1. `mkdir groceriesHw`
-2. `npx create-react-app react-groceries`
+2. `npx create-react-app react_groceries`
 3. `cd react_groceries`
 
 ## Deliverables
