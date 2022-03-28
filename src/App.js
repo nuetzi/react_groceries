@@ -23,7 +23,12 @@ export default function App() {
             return (
               each.isPurchased
               ? null
-              : <Item props={each} key={i} />
+              : <Item 
+                item={each.item}
+                brand={each.brand}
+                units={each.units}
+                quantity={each.quantity}
+                key={i} />
             );
           })
         }
