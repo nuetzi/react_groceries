@@ -1,4 +1,4 @@
-export default List () [
+const List = [
     {
         item: "Deluxe Mixed Nuts", 
         brand: "Great Value",
@@ -19,5 +19,14 @@ export default List () [
         units: "16 oz.",
         quantity: "1",
         isPurchased: false
+    },
+    {
+        item: "Coffee", 
+        brand: "New England Coffee",
+        units: "16 oz.",
+        quantity: "1",
+        isPurchased: false
     }
 ];
+
+export default List;
