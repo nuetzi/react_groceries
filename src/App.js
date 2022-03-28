@@ -8,14 +8,23 @@ export default function App() {
 
   const [groceries, setGroceries] = useState(List);
 
-  const addItem = 
+  const addItem = () => {
+    setGroceries(groceries.concat([{
+      item: document.querySelector("input[name=item]").value,
+      brand: document.querySelector("input[name=brand]").value,
+      units: document.querySelector("input[name=units]").value,
+      quantity: document.querySelector("input[name=quantity]").value,
+      isPurchased: false
+    }]));
+  };
 
   useEffect(() => {
+    document.querySelector("#submit").addEventListener("click", addItem);
   });
 
   return (
     <div>
-      <h2>Add to the list:</h2>
+      <h3>Add to the list:</h3>
       <form>
         Item: <input type="text" name="item" /> <br/>
         Brand: <input type="text" name="brand" /> <br/>
