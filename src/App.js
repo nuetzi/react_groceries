@@ -23,7 +23,7 @@ export default function App() {
   });
 
   return (
-    <div>
+    <div className="main">
       <h3>Add to the list:</h3>
       <form>
         Item: <input type="text" name="item" /> <br/>
@@ -32,7 +32,7 @@ export default function App() {
         Quantity: <input type="text" name="quantity" /> <br/>       
         <input type="submit" value="Add Item" id="submit" />
       </form>
-
+      <br/> <br/> <br/> <br/>
       <div className="completeList">
         {
           groceries.map((each, i) => {
