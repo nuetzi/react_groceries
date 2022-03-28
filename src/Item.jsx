@@ -1,11 +1,12 @@
 export default function Item (props) {
+    let { item, brand, units, quantity } = props;
     return (
         <div className="listItem">
             <p>
-            Item: {props.item} <br/>
-            Brand: {props.brand} <br/>
-            Units: {props.units} <br/>
-            Quantity: {props.quantity} <br/>
+            Item: {item} <br/>
+            Brand: {brand} <br/>
+            Units: {units} <br/>
+            Quantity: {quantity} <br/>
             </p>
         </div>
     );

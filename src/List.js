@@ -9,8 +9,8 @@ const List = [
     {
         item: "Dr. Pepper & Cream Soda", 
         brand: "Dr. Pepper",
-        units: "12 oz.",
-        quantity: "12",
+        units: "12 pack of 12oz cans",
+        quantity: "1",
         isPurchased: false
     },
     {
@@ -21,9 +21,9 @@ const List = [
         isPurchased: false
     },
     {
-        item: "Coffee", 
-        brand: "New England Coffee",
-        units: "16 oz.",
+        item: "Half and Half", 
+        brand: "Great Value",
+        units: "Half gallon",
         quantity: "1",
         isPurchased: false
     }
